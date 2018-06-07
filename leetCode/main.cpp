@@ -6,10 +6,9 @@
 //  Copyright © 2018 Haag, Austin P. All rights reserved.
 //
 
-#include <iostream>
+#include "libraries.h"
+#include "Programs/splitBill/splitBill.cpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    run();
 }
