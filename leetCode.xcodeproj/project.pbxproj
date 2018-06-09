@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		301F6E6D20CB109D00901386 /* roman_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roman_to_integer.cpp; sourceTree = "<group>"; };
+		301F6E6F20CB18AA00901386 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
 		309EFF0320C9E0A4004D5347 /* table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cpp; sourceTree = "<group>"; };
 		30A4243520C9D39800AAFC57 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A4243820C9D39800AAFC57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -78,6 +80,8 @@
 				30A4244320C9D41E00AAFC57 /* reverse_integer.cpp */,
 				30A4244720C9D8CA00AAFC57 /* twoSum.cpp */,
 				30A4244820C9D95700AAFC57 /* palindrome_number.cpp */,
+				301F6E6D20CB109D00901386 /* roman_to_integer.cpp */,
+				301F6E6F20CB18AA00901386 /* longestCommonPrefix.cpp */,
 			);
 			path = Easy_Problems;
 			sourceTree = "<group>";

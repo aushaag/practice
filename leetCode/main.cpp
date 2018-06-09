@@ -7,7 +7,8 @@
 //
 
 #include "libraries.h"
-#include "Programs/splitBill/splitBill.cpp"
+#include "Easy_Problems/longestCommonPrefix.cpp"
+
 
 int main(int argc, const char * argv[]) {
     run();

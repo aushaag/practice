@@ -15,6 +15,7 @@
 #include <cassert>
 #include <string>
 #include <sstream>
+#include <deque>
 
 using namespace std;
 
