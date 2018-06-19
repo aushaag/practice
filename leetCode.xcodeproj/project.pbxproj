@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		301F6E6D20CB109D00901386 /* roman_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roman_to_integer.cpp; sourceTree = "<group>"; };
 		301F6E6F20CB18AA00901386 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
+		301F6E7320D0188B00901386 /* add_two_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = add_two_numbers.cpp; sourceTree = "<group>"; };
+		301F6E7520D02CE200901386 /* longest_substring_without_repeating_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_substring_without_repeating_characters.cpp; sourceTree = "<group>"; };
+		301F6E7720D4608700901386 /* longest_palindromic_substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_palindromic_substring.cpp; sourceTree = "<group>"; };
 		309EFF0320C9E0A4004D5347 /* table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cpp; sourceTree = "<group>"; };
 		30A4243520C9D39800AAFC57 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A4243820C9D39800AAFC57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -34,6 +37,8 @@
 		30A4244820C9D95700AAFC57 /* palindrome_number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome_number.cpp; sourceTree = "<group>"; };
 		30A4244A20C9DD1F00AAFC57 /* splitBill.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = splitBill.cpp; sourceTree = "<group>"; };
 		30A4244C20C9DE6000AAFC57 /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+		30FE693320D8352E0094355D /* valid_parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = valid_parentheses.cpp; sourceTree = "<group>"; };
+		30FE693520D83DB40094355D /* string_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string_to_integer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301F6E7220D0185200901386 /* Medium_Problems */ = {
+			isa = PBXGroup;
+			children = (
+				301F6E7320D0188B00901386 /* add_two_numbers.cpp */,
+				301F6E7520D02CE200901386 /* longest_substring_without_repeating_characters.cpp */,
+				301F6E7720D4608700901386 /* longest_palindromic_substring.cpp */,
+				30FE693520D83DB40094355D /* string_to_integer.cpp */,
+			);
+			path = Medium_Problems;
+			sourceTree = "<group>";
+		};
 		30A4242C20C9D39800AAFC57 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +86,7 @@
 				30A4244220C9D3E600AAFC57 /* libraries.h */,
 				30A4244920C9DCC900AAFC57 /* Programs */,
 				30A4244620C9D54600AAFC57 /* Easy_Problems */,
+				301F6E7220D0185200901386 /* Medium_Problems */,
 			);
 			path = leetCode;
 			sourceTree = "<group>";
@@ -82,6 +99,7 @@
 				30A4244820C9D95700AAFC57 /* palindrome_number.cpp */,
 				301F6E6D20CB109D00901386 /* roman_to_integer.cpp */,
 				301F6E6F20CB18AA00901386 /* longestCommonPrefix.cpp */,
+				30FE693320D8352E0094355D /* valid_parentheses.cpp */,
 			);
 			path = Easy_Problems;
 			sourceTree = "<group>";

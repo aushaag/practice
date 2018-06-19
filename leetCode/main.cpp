@@ -7,7 +7,7 @@
 //
 
 #include "libraries.h"
-#include "Easy_Problems/longestCommonPrefix.cpp"
+#include "Medium_Problems/string_to_integer.cpp"
 
 
 int main(int argc, const char * argv[]) {

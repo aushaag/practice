@@ -16,6 +16,7 @@
 #include <string>
 #include <sstream>
 #include <deque>
+#include <numeric>
 
 using namespace std;
 
