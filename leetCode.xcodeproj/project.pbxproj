@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303D612A21023BE60036F493 /* insertElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303D612921023BE60036F493 /* insertElement.cpp */; };
 		30A4244520C9D51A00AAFC57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30A4243820C9D39800AAFC57 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		301F6E7320D0188B00901386 /* add_two_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = add_two_numbers.cpp; sourceTree = "<group>"; };
 		301F6E7520D02CE200901386 /* longest_substring_without_repeating_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_substring_without_repeating_characters.cpp; sourceTree = "<group>"; };
 		301F6E7720D4608700901386 /* longest_palindromic_substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_palindromic_substring.cpp; sourceTree = "<group>"; };
+		303D612921023BE60036F493 /* insertElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertElement.cpp; sourceTree = "<group>"; };
 		309EFF0320C9E0A4004D5347 /* table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cpp; sourceTree = "<group>"; };
 		30A4243520C9D39800AAFC57 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A4243820C9D39800AAFC57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 			path = Medium_Problems;
 			sourceTree = "<group>";
 		};
+		303D6128210239710036F493 /* Cracking the PM Interview */ = {
+			isa = PBXGroup;
+			children = (
+				303D612921023BE60036F493 /* insertElement.cpp */,
+			);
+			path = "Cracking the PM Interview";
+			sourceTree = "<group>";
+		};
 		30A4242C20C9D39800AAFC57 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 			children = (
 				30A4243820C9D39800AAFC57 /* main.cpp */,
 				30A4244220C9D3E600AAFC57 /* libraries.h */,
+				303D6128210239710036F493 /* Cracking the PM Interview */,
 				30A4244920C9DCC900AAFC57 /* Programs */,
 				30A4244620C9D54600AAFC57 /* Easy_Problems */,
 				301F6E7220D0185200901386 /* Medium_Problems */,
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A4244520C9D51A00AAFC57 /* main.cpp in Sources */,
+				303D612A21023BE60036F493 /* insertElement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
