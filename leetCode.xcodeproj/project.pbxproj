@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		303D612A21023BE60036F493 /* insertElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 303D612921023BE60036F493 /* insertElement.cpp */; };
 		30A4244520C9D51A00AAFC57 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30A4243820C9D39800AAFC57 /* main.cpp */; };
+		D8A1771621025E8C00252399 /* totalSales4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A177112102596C00252399 /* totalSales4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,7 @@
 		301F6E7320D0188B00901386 /* add_two_numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = add_two_numbers.cpp; sourceTree = "<group>"; };
 		301F6E7520D02CE200901386 /* longest_substring_without_repeating_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_substring_without_repeating_characters.cpp; sourceTree = "<group>"; };
 		301F6E7720D4608700901386 /* longest_palindromic_substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_palindromic_substring.cpp; sourceTree = "<group>"; };
-		303D612921023BE60036F493 /* insertElement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertElement.cpp; sourceTree = "<group>"; };
+		303D612921023BE60036F493 /* insertElement1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertElement1.cpp; sourceTree = "<group>"; };
 		309EFF0320C9E0A4004D5347 /* table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = table.cpp; sourceTree = "<group>"; };
 		30A4243520C9D39800AAFC57 /* leetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A4243820C9D39800AAFC57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -42,6 +42,9 @@
 		30FE693320D8352E0094355D /* valid_parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = valid_parentheses.cpp; sourceTree = "<group>"; };
 		30FE693520D83DB40094355D /* string_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string_to_integer.cpp; sourceTree = "<group>"; };
 		30FE693820D99B2C0094355D /* merge_two_lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge_two_lists.cpp; sourceTree = "<group>"; };
+		D8A1770C210255EB00252399 /* reverseArray2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseArray2.cpp; sourceTree = "<group>"; };
+		D8A1770F210258B200252399 /* isSubset3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isSubset3.cpp; sourceTree = "<group>"; };
+		D8A177112102596C00252399 /* totalSales4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = totalSales4.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +72,10 @@
 		303D6128210239710036F493 /* Cracking the PM Interview */ = {
 			isa = PBXGroup;
 			children = (
-				303D612921023BE60036F493 /* insertElement.cpp */,
+				303D612921023BE60036F493 /* insertElement1.cpp */,
+				D8A1770C210255EB00252399 /* reverseArray2.cpp */,
+				D8A1770F210258B200252399 /* isSubset3.cpp */,
+				D8A177112102596C00252399 /* totalSales4.cpp */,
 			);
 			path = "Cracking the PM Interview";
 			sourceTree = "<group>";
@@ -191,8 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A1771621025E8C00252399 /* totalSales4.cpp in Sources */,
 				30A4244520C9D51A00AAFC57 /* main.cpp in Sources */,
-				303D612A21023BE60036F493 /* insertElement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
