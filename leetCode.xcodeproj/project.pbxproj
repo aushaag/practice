@@ -39,6 +39,7 @@
 		30A4244C20C9DE6000AAFC57 /* person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
 		30FE693320D8352E0094355D /* valid_parentheses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = valid_parentheses.cpp; sourceTree = "<group>"; };
 		30FE693520D83DB40094355D /* string_to_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string_to_integer.cpp; sourceTree = "<group>"; };
+		30FE693820D99B2C0094355D /* merge_two_lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge_two_lists.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				301F6E6D20CB109D00901386 /* roman_to_integer.cpp */,
 				301F6E6F20CB18AA00901386 /* longestCommonPrefix.cpp */,
 				30FE693320D8352E0094355D /* valid_parentheses.cpp */,
+				30FE693820D99B2C0094355D /* merge_two_lists.cpp */,
 			);
 			path = Easy_Problems;
 			sourceTree = "<group>";

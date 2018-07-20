@@ -7,7 +7,7 @@
 //
 
 #include "libraries.h"
-#include "Medium_Problems/string_to_integer.cpp"
+#include "Easy_Problems/merge_two_lists.cpp"
 
 
 int main(int argc, const char * argv[]) {
