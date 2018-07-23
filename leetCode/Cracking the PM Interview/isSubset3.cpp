@@ -10,7 +10,8 @@
 
 
 // 16.3
-bool isSubset(string bigger, string smaller) {
+// Given two lists (A and B) of unique strings, write a program to determine if A is a subset of B. That is, check if all the elements from A are contained in B.
+bool isSubset(vector<string> bigger, vector<string> smaller) {
     
     return false;
 }
@@ -18,7 +19,10 @@ bool isSubset(string bigger, string smaller) {
 
 int main() {
     
-    isSubset("longer", "short");
-    cout << "something";
+    vector<string> bigger = { "apple", "pear", "orange" };
+    vector<string> smaller = { "apple", "orange" };
+    
+    isSubset(bigger, smaller);
+
     cout << endl;
 }

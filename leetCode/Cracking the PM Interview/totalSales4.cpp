@@ -8,6 +8,7 @@
 
 #include "libraries.h"
 
+// 16.4
 // You are given a two-dimensional array of sales data where the first column is a product ID and the second column is the quantity. Write a function to take this list of data and return a new two-dimensional array with the total sales for each product ID.
 
 /* Example:
@@ -32,7 +33,8 @@ vector<vector<int>> totalSales(vector<vector<int>> data) {
 
 int main() {
     
-    vector<vector<int>> data = {{211, 4},
+    vector<vector<int>> data =
+                    { {211, 4},
                       {262, 3},
                       {211, 5},
                       {216, 6} };

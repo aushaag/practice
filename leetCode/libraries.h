@@ -16,7 +16,10 @@
 #include <string>
 #include <sstream>
 #include <deque>
+#include <stack>
+#include <queue>
 #include <numeric>
+
 
 using namespace std;
 
