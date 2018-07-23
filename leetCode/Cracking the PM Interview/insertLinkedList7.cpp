@@ -12,20 +12,24 @@
 // 16.7
 // Insert a node into a sorted linked list (in order).
 
-struct node {
-    node *prev;
-    node *next;
+struct Node {
+    Node *prev;
+    Node *next;
     int datum;
 };
 
 
-node *insert() {
-    node *newNode = new node();
+Node *insert(Node * insert) {
+    if (insert == nullptr) {
+        insert = new Node();
+    }
+    Node *newNode = new Node();
     return newNode;
 }
 
 
 int main() {
+    Node * sortedList = new Node {nullptr, nullptr, 0};
     
     cout << endl;
 }

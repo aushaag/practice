@@ -27,8 +27,20 @@
  */
 
 vector<vector<int>> totalSales(vector<vector<int>> data) {
+    unordered_map<int, int> salesMap;
     
-    return data;
+    for (auto sale : data) {
+        salesMap[sale[0]] += sale[1];
+    }
+    
+    vector<vector<int>> salesVect;
+    
+    for (auto pair : salesMap) {
+//        vector<int> sale = { key, salesMap[2] };
+        vector<int> sale = { pair.first, pair.second};
+        salesVect.push_back(sale);
+    }
+    return salesVect;
 }
 
 int main() {
@@ -38,7 +50,15 @@ int main() {
                       {262, 3},
                       {211, 5},
                       {216, 6} };
-    totalSales(data);
+    vector<vector<int>> data2;
+    
+    vector<vector<int>> newData = totalSales(data);
+    
+    totalSales(data2);
+    
+    for (auto sale : newData) {
+        cout << sale[0] << ", " << sale[1] << endl;
+    }
     
     cout << endl;
 }

@@ -13,6 +13,8 @@
 void reverse(int array[], int size) {
     int front = 0;
     int back = size - 1;
+    
+    // to reverse, swap the front and the back element until you get to the middle
     while (front < back) {
         swap(array[front], array[back]);
         ++front;

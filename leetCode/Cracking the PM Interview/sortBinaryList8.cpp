@@ -12,15 +12,15 @@
 // 16.8
 // Insert a node into a sorted linked list (in order).
 
-struct node {
-    node *prev;
-    node *next;
+struct Node {
+    Node *prev;
+    Node *next;
     int datum;
 };
 
 
-node *sort(node *list) {
-    node *newNode = new node();
+Node *sort(Node *list) {
+    Node *newNode = new Node();
     return newNode;
 }
 

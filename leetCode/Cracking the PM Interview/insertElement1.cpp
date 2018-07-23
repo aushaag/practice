@@ -13,19 +13,27 @@
 
 
 bool insertElement(int array[], int size, int x) {
+    // checking valid input
     if (size <= 0 || array[size - 1] != 0) return false;
+    
+    // insert into the only open slot if only one
     else if (size == 1) {
         array[0] = x;
         return true;
     }
     
-    --size;
-    array[size] = x;
-    --size;
-    while (size >= 0) {
-        if (array[size] > x) {
-            swap(array[size], array[size + 1]);
-            --size;
+    
+    // size will be our moving window
+    int index = size;
+    --index;
+    array[index] = x;
+    --index;
+    while (index >= 0) {
+        // keep moving the element until it is in the correct place
+        if (array[index] > x) {
+            swap(array[index], array[index + 1]);
+            --index;
+        // once the element at index is smaller than x, we don't want to keep moving x
         } else {
             break;
         }
