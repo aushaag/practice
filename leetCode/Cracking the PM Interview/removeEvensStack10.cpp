@@ -14,10 +14,46 @@
 
 stack<int> removeEvens(stack<int> stack) {
     
+    ::stack<int> reversed;
+    
+    while (!stack.empty()) {
+        if (stack.top() % 2 == 1) {
+            reversed.push(stack.top());
+        }
+        stack.pop();
+    }
+    
+    while (!reversed.empty()) {
+        stack.push(reversed.top());
+        reversed.pop();
+    }
+    
     return stack;
 }
 
+
+void printStack(stack<int> stack) {
+    cout << "From top to bottom: ";
+    
+    while (!stack.empty()) {
+        cout << stack.top() << " ";
+        stack.pop();
+    }
+    cout << endl;
+}
 int main() {
+    
+    stack<int> newStack;
+    newStack.push(0);
+    newStack.push(1);
+    newStack.push(2);
+    newStack.push(3);
+    newStack.push(4);
+    newStack.push(5);
+    
+    printStack(newStack);
+    
+    printStack(removeEvens(newStack));
     
     cout << endl;
 }

@@ -13,9 +13,34 @@
 // Write a function which takes a stack as input and returns a new stack which has the lements reversed.
 
 
-stack<int> reverse(stack<int> stack) {
+stack<int> reverseStack(stack<int> stackIn) {
     
-    return stack;
+    stack<int> newStack;
+    while (!stackIn.empty()) {
+        newStack.push(stackIn.top());
+        stackIn.pop();
+    }
+    
+    return newStack;
+}
+
+
+stack<int> reverseWithoutDestroying(stack<int> stackIn) {
+    stack<int> temp;
+    stack<int> reversed;
+    
+    while (!stackIn.empty()) {
+        temp.push(stackIn.top());
+        reversed.push(stackIn.top());
+        stackIn.pop();
+    }
+    
+    while (!temp.empty()) {
+        stackIn.push(temp.top());
+        temp.pop();
+    }
+    
+    return reversed;
 }
 
 int main() {
